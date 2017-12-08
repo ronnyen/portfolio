@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: auto;
+            width: 95%;
+        }
+        .links {
+            font: 28px;
+            margin: auto;
+            width: 50%;
+            text-align: center;
+        }
+        .header{
+            font: 28px sans-serif;
+        }
+
+        .axis {
+            font: 10px sans-serif;
+        }
+        .lineAverage {
+            fill: none;
+            stroke: steelblue;
+            stroke-width: 1.5px;
+        }
+        .lineMedian {
+            fill: none;
+            stroke: red;
+            stroke-width: 1.5px;
+        }
+
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+        div.tooltip {
+            position: absolute;
+            text-align: center;
+            width: 190px;
+            height: 60px;
+            padding: 2px;
+            font: 18px sans-serif;
+            background: lightgrey;
+            border: 0px;
+            border-radius: 8px;
+            pointer-events: none;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<div class="links">
+    <a href="index.html">Back</a>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.10.2/d3.min.js"></script>
+<script src="scripts/stats.js"></script>
+</body>
